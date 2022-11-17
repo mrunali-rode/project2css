@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#majorBox {
+  background-color: #67676729;
+  height: 1300px;
+  width: 1350px;
+ 
+  /* opacity: .5; */
+}
+.c
+{
+  margin-left: 18px;
+  margin-top: 10px; 
+  height: 24px; 
+  width: 24px; 
+  border: 5px solid black; 
+  background-color:  #98989829;
+}
+#navbar {
+  top: 0px;
+  left: 150px;
+  width: 1350px;
+  height: 94px;
+  display: flex;
+  align-items: center;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #7b7b7b29;
+  opacity: 1;
+}
+#T {
+  margin-left: 100px;
+  width: 115px;
+  height: 49px;
+
+  /* UI Properties */
+
+  text-align: left;
+  font: normal normal bold 40px/49px Inter;
+  letter-spacing: 0px;
+  color: #424242;
+}
+#L {
+  left: 115px;
+  width: 100px;
+  height: 49px;
+
+  text-align: left;
+  font: normal normal bold 40px/49px Inter;
+  letter-spacing: 0px;
+  color: #00a5ec;
+}
+.fa-circle-plus {
+  color: #00a5ec;
+  /* background-color: white; */
+}
+.navbarbottom {
+    display: flex;
+    justify-content: end;
+    margin: 21px;
+    margin-right: 150px;
+    margin-top: 50px;
+    /* background-color: white; */
+
+}
+.navbarbottom1 {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+    /* margin-right: 150px;
+    margin-top: 50px; */
+
+}
+#backer{
+  display: flex;
+  font-size: 120%;
+
+
+  /* justify-content: space-between; */
+}
+#container{
+  display: flex;
+}
+#A{
+    margin: 20px;
+    /* margin-bottom: 20px; */
+    font-size: 150%;
+    position: relative;
+    bottom: 10px;
+}
+#C{
+    margin: 20px;
+    font-size: 125%;
+    position: relative;
+}
+.infoBox{
+    display: flex;
+    flex-wrap:wrap;
+}
+.info{
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    margin: 50px;
+}
+.info:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 5px grey;
+}
+
+.Head{
+  padding: 20px;
+  color: #00A5EC;
+}
+.first{
+  display: flex;
+
+}
+.second{
+  display: flex;
+}
+#hr{
+  color: #EDEDED;
+}
+.icons{
+  color: #424242;
+  display: flex;
+  justify-content: center;
+}
+
+#secondItem{
+  width: 600px;
+  height: 350px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin: 20px;
+  position: relative;
+  top: -1080px;
+  left: 355px;
+}
+#secondItem:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 5px grey;
+  /* background-color: blue; */
+}
+#Add{
+  padding: 20px;
+  font-weight: 100;
+}
+#AddForm{
+  width: 550px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #67676729;
+  position: relative;
+  left: 5px;
+  margin: 20px;
+}
+#sub{
+  width: 170px;
+  height: 55px;
+  color: white;
+  background-color: #00A5EC;
+  border-radius: 10px;
+  font-size: large;
+  position: relative;
+  left: 400px;
+  margin-top: 20px;
+}
+#flex{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#div{
+  filter: blur(5px);
+}
+#div1{
+  filter: blur(5px);
+}
+.info3{
+ background-color: #FFFFFF;
+width: 350px;
+height: 350px;
+border-radius: 15px;
+margin-left: 470px;
+margin-top: 50px;
+}
+.info3:hover{
+cursor: pointer;
+  box-shadow: 1px 1px 5px 5px grey;
+}
+@media (min-width: 360px) and (max-width :480px) {
+  #majorBox{
+    top: 0px;
+    left: 0px;
+    width: 360px;
+    height: 100%;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  #majorBox:hover
+  {
+    border: 1px solid #00A5EC;
+  }
+  #navbar{
+    top: 0px;
+left: 0px;
+width: 360px;
+height: 60px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 30px #7B7B7B29;
+opacity: 1;
+  }
+  .Head{
+    font-size: medium;
+  }
+  #plus
+  {
+    top: 80px;
+    left: 160px;
+    width: 40px;
+    height: 40px;
+  }
+  .infoBox{
+      display: flex;
+      flex-direction: column;
+      margin: 5%;
+      padding: 0;
+      justify-content: center;
+  }
+  .info{
+    width: 320px;
+    height: 350px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    margin-left: 0;
+  }
+  .info:hover{
+    border: 2px solid #00A5EC;
+  }
+  #secondItem{
+    left: 12px;
+    margin-top: 0;
+    width: 345px;
+    height: 280px;
+    margin-left: 0;
+    position: relative;
+    border: 1px solid rgb(157, 156, 156);
+  }
+  #AddForm
+  {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+  }
+  #sub
+  {
+    height: 40px;
+    left: 155px;
+    position: relative;
+    border-radius: 5px;
+  }
+  #Add{
+     
+     font-size: medium
+  }
+  hr{
+    color: rgb(210, 208, 208);
+  }
+ 
+ 
+  .info3
+  {
+    top: 150px;
+    left: 12px;
+    width: 336px;
+    height: 360px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+  }
+  #backer
+  {
+    top: 88px;
+    left: 12px;
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    margin-right: 324px;
+  }
+  .fourp
+  {
+    top: 255px;
+    left: 10px;
+    width: 340px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+ 
+  .blogo
+  {
+    font-size: 10px;
+  }
+  .navbarbottom1{
+    display: inline-block;
+    box-sizing: border-box;
+
+   
+  }
+  .addbtn
+  {
+    top: 150px;
+    left: 300px;
+    display: inline;
+  }
+ 
+
+ 
+}
+/* @media (min-width: px) and (max-width :700px) {
+  .parent{
+      flex-direction: column;
+      margin: 5%;
+      align-items: center;
+  }
+} */
